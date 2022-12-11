@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jonas Petraška; Inspirare, UAB</Authors>
+    <Company>Inspirare, UAB</Company>
+    <Description>Simple Xamarin Forms combo box with search option</Description>
+    <PackageProjectUrl>https://github.com/Inspirare-LLC/Xamarin.Forms.ComboBox</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Inspirare-LLC/Xamarin.Forms.ComboBox</RepositoryUrl>
+    <Version>1.0.0.3</Version>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="5.0.0.2012" />
+  </ItemGroup>
+
+</Project>
